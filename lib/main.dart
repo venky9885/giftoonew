@@ -74,7 +74,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> backgroundHandler(RemoteMessage message) async {
     debugPrint(message.data.toString());
-    debugPrint(message.notification!.title);
+    debugPrint(message.notification?.title);
   }
 
   @override
@@ -361,11 +361,11 @@ class _MyAppState extends State<MyApp> {
               Center(
                   child: progress < 0.80
                       ? Container(
-                          height: 80,
-                          width: 130,
+                          height: 100,
+                          width: 100,
                           //color: Colors.white,
                           decoration: const BoxDecoration(
-                            color: Colors.white,
+                            // color: Colors.white,
                             borderRadius: BorderRadius.all(
                               Radius.circular(12.0),
                             ),
@@ -374,7 +374,7 @@ class _MyAppState extends State<MyApp> {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: const LoadingIndicator(
-                              indicatorType: Indicator.ballScaleRippleMultiple,
+                              indicatorType: Indicator.circleStrokeSpin,
 
                               /// Required, The loading type of the widget
                               colors: _kDefaultRainbowColors,
@@ -383,7 +383,7 @@ class _MyAppState extends State<MyApp> {
                               strokeWidth: 2,
 
                               /// Optional, The stroke of the line, only applicable to widget which contains line
-                              backgroundColor: Colors.white,
+                              //backgroundColor: Colors.white,
 
                               /// Optional, Background of the widget
                               // pathBackgroundColor: Colors.black
@@ -463,9 +463,9 @@ const List<Color> _kDefaultRainbowColors = [
   // Colors.orange,
   // Colors.yellow,
   //Colors.green,
-  Colors.blue,
-  Colors.indigo,
-  Colors.purple,
+  // Colors.blue,
+  // Colors.indigo,
+  Colors.black,
 ];
 
  /* if (url.contains('instagram.com')) {
