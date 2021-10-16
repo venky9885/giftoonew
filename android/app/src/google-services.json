@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "project_number": "1054911269051",
+        "project_id": "giftooin-198904",
+        "storage_bucket": "giftooin-198904.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:1054911269051:android:8e302f19602fcfe70bc19e",
+                "android_client_info": {
+                    "package_name": "in.giftoo.shop"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "1054911269051-nc8murpvkr5ht27qbqjct22ctd2aksks.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyBfSE8BLsKytP4XT_EPk-9DsObvQ6E2g7k"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "1054911269051-nc8murpvkr5ht27qbqjct22ctd2aksks.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
